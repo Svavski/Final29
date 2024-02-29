@@ -1,0 +1,141 @@
+.quiz-icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 4px;
+  padding: 6px;
+  margin-right: 12px;
+}
+.html-quiz {
+  background-color: #fff1e9;
+}
+.css-quiz {
+  background-color: #e0fdef;
+}
+.javascript-quiz {
+  background-color: #ebf0ff;
+}
+.accessibility-quiz {
+  background-color: #f6e7ff;
+}
+
+.question-prompt-gap {
+  display: flex;
+  flex-direction: column;
+  row-gap: 12px;
+  
+}
+
+.quiz-container {
+  display: flex;
+  flex-direction: column;
+  padding: 24px;
+  row-gap: 24px;
+}
+
+.progress-bar-container {
+  display: flex;
+  align-items: center;
+  padding: 0 6px;
+  background-color: var(--pure-white);
+  width: 100%;
+  height: 25px;
+  border-radius: 16px;
+  margin-bottom: 16px;
+}
+
+
+.progress-bar {
+  background-color: var(blue);
+  width: 100%;
+  height: 25px;
+}
+
+.options-container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  row-gap: 12px;
+}
+
+.options-gap {
+  display: flex;
+}
+
+.question-js {
+  color: black;
+}
+ .prompt {
+  display: flex;
+  width: 50%;
+  height: 50px;
+  flex: 1;
+ background-color: #e0fdef;
+ margin-top: 8px;
+ align-items: center;
+ justify-content: center;
+ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+ border-radius: 8px;
+ }
+
+.select-an-answer-container {
+  display: none;
+  align-items: center;
+  justify-content: center;
+  column-gap: 8px;
+}
+
+.correct-icon {
+  display: none;
+}
+
+.wrong-icon {
+  display: none;
+}
+
+.quiz-score-card {
+  background-color: var(--pure-white);
+  border-radius: 12px;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  padding: 32px;
+  justify-content: center;
+}
+
+.quiz-result {
+  display: none;
+}
+
+.quiz-score-card-container {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  row-gap: 24px;
+}
+
+.quiz-indicator {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.icon-result-container {
+  display: flex;
+  flex: 1;
+  justify-content: flex-end;
+}
+
+.prompt-container {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  row-gap: 24px;
+}
+
+
+h2 {
+  color: black;
+
+}
+
